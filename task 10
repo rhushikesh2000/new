@@ -1,0 +1,28 @@
+Q1) Answer:
+-----------------------------------------------------------------------------------------------
+public static void main(String[] args) {
+
+
+
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter a long string of digits: ");
+		String input = sc.next();
+
+		String result = removeImmediateDuplicates(input);
+		System.out.println (result);
+	}
+------------------------------------------------------------------------------------------------------------
+Q2)Answer
+-------------------------------------------------------------------------------
+public static void main(String[] args) {
+
+
+
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter a long string of digits: ");
+		String input = sc.next();
+
+		String result = removeImmediateDuplicates(input);
+		System.out.println (result);
+	}
+---------------------------------------------------------------------------
