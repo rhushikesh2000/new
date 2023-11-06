@@ -2,7 +2,41 @@ Q1. what is automation testing ?
 
 dsgfihaskjdbkasjdvbkjbvdkjnv
 
+Q2.java code prime no
+------------------------------------------------------------------
+import java.util.Scanner;
 
+public class abc {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String a = sc.nextLine();
+		String[] arr = a.split(" ");
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i].contains(".")) {
+
+				arr[i] = arr[i].substring(0, arr[i].length() - 1);
+
+			}
+		}
+
+		int max = 0;// 1998
+		for (String x : arr) {
+
+			if (x.matches("\\d+")) {
+				int temp = Integer.parseInt(x);// 12,1998
+				max = Math.max(max, temp);
+				// [12,1998]
+
+			}
+
+		}
+
+		System.out.println(max);
+	}
+}
+
+	
 
 
 package task_13;
@@ -14,3 +48,4 @@ public class queestion_1 {
 	}
 
 }
+---------------------------------------------------------------------------------------------
