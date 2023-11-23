@@ -1,0 +1,54 @@
+Q1.wirte a programm to print numbers from 10 to 50 ?
+
+public class class1 { 
+
+public static void main(String[] args) {
+
+Scanner scanner = new Scanner(System.in); int n = scanner.nextInt(); int[] arr = new int[n];
+
+for (int i = 0; i < n; i++) { arr[i] = scanner.nextInt(); }
+
+if (isBeautifulArray(arr)) { System.out.println(1); } else { System.out.println(0); } }
+
+public static boolean isBeautifulArray(int[] arr) { int sum = 0;
+
+for (int num : arr) { sum += num; }
+
+return sum % 2 == 0 && sum % 3 == 0 && sum % 5 == 0; } }
+
+}
+
+output:
+
+10 .........50
+
+---------------------------------------------------------------------------------------------
+
+Q2.prime number code 
+
+
+
+Q1.wirte a programm to print numbers from 10 to 50 ?
+
+public class class1 { 
+
+public static void main(String[] args) {
+
+Scanner scanner = new Scanner(System.in); int n = scanner.nextInt(); int[] arr = new int[n];
+
+for (int i = 0; i < n; i++) { arr[i] = scanner.nextInt(); }
+
+if (isBeautifulArray(arr)) { System.out.println(1); } else { System.out.println(0); } }
+
+public static boolean isBeautifulArray(int[] arr) { int sum = 0;
+
+for (int num : arr) { sum += num; }
+
+return sum % 2 == 0 && sum % 3 == 0 && sum % 5 == 0; } }
+
+}
+
+output:
+
+10 .........50
+---------------------------------------------------------
