@@ -58,7 +58,7 @@ To start with, let us have a working Eclipse IDE in place and then consider the 
 
 - Step	Description
   ---
-1.	Create a project with a name TestWeb under a package com.tutorialspointas explained in the Spring MVC - Hello World Example chapter.
+1.	Create a project with a name TestWeb under a package com.ViewResolver explained in the Spring MVC - Hello World Example chapter.
 2.	Create a Java classes HelloController under the com.ViewResolverpackage.
 3.	Create a view file hello.jsp under jsp sub-folder.
 4.	The final step is to create the content of the source and configuration files and export the application as explained below.
